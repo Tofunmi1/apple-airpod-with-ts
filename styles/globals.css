@@ -1,16 +1,32 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'sf-pro-regular';
+  src:  url('/fonts/sf-pro-display_regular.woff2') format('woff2'),
+        url('/fonts/sf-pro-display_regular.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'sf-pro-medium';
+  src:  url('/fonts/sf-pro-display_medium.woff2') format('woff2'),
+        url('/fonts/sf-pro-display_medium.woff2') format('woff');
+}
+@font-face {
+  font-family: 'sf-pro-semi-bold';
+  src:  url('/fonts/sf-pro-display_semibold.woff2') format('woff2'),
+        url('/fonts/sf-pro-display_semibold.woff2') format('woff');
+}
+@font-face {
+  font-family: 'sf-pro-bold';
+  src:  url('/fonts/sf-pro-display_bold.woff2') format('woff2'),
+        url('/fonts/sf-pro-display_bold.woff2') format('woff');
+}
 body {
+  /* background: black; */
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+  font-family:SF pro Display, SF Pro Icons, Helvetica Neue,Helvetica,Arial sans-serif;
+  letter-spacing: 0em;
 }

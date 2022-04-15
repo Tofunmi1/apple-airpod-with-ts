@@ -1,0 +1,7 @@
+.x{
+ background-image: url('/images/airpods_3rdgen_left__4rnjhu9z6luu_large.png'), url('/images/airpods_3rdgen_right__dlre1ozlzk2u_large.png');
+ background-position: right bottom, left top;
+ background-repeat: no-repeat, no-repeat;
+ background-color: black;
+ background-size: auto;
+}
